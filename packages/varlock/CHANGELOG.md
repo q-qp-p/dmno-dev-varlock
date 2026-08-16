@@ -25,6 +25,19 @@
 
 
 
+
+## 1.16.2
+<sub>2026-08-16</sub>
+
+-  *(patch)*
+  Exit cleanly instead of crashing when CLI output is piped into a consumer that closes early (e.g. `varlock flatten | head -3`)
+-  *(patch)*
+  Ship the Linux local-encryption helper binaries uncompressed. UPX packing caused antivirus false positives (Defender Wacatac.C!ml) during install.
+-  *(patch)*
+  varlock flatten no longer needs to detect a workspace root - any @import path that resolves on disk is flattened, including in non-JS monorepos
+-  *(patch)*
+  Clearer errors for Windows-style @import/@plugin paths, which are not supported (use forward slashes, or a relative/~ path instead of a drive letter)
+
 ## 1.16.1
 <sub>2026-08-08</sub>
 
