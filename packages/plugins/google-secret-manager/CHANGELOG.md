@@ -6,6 +6,12 @@
 
 
 
+
+## 1.2.4
+<sub>2026-10-05</sub>
+
+-  *(patch)* - Fix Workload Identity Federation, which never passed the OIDC token to Google STS.
+
 ## 1.2.3
 <sub>2026-09-25</sub>
 

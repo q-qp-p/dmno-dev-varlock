@@ -10,6 +10,12 @@
 
 
 
+
+## 2.0.5
+<sub>2026-10-05</sub>
+
+-  *(patch)* - Report an invalid or rejected service account token as an error on the item instead of crashing, when using the SDK
+
 ## 2.0.4
 <sub>2026-08-25</sub>
 
